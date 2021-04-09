@@ -12,7 +12,7 @@ body {
 	position: relative;
 }
 .wrapper main .life {
-	background: url("../assets/img/bg-image.png");
+	background: url("assets/img/bg-image.png");
 	background-size: cover;
 	height: 744px;
 	width: 100%;
