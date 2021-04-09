@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.wrapper main {
+	width: 100%;
+	position: relative;
+}
+.wrapper main .life {
+	background: url("../assets/img/bg-image.png");
+	background-size: cover;
+	height: 744px;
+	width: 100%;
+	position: relative;
+}
+.wrapper main .life header {
+	width: 100%;
+}
+.wrapper main .life header .header-nav {
+	max-width: 700px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.wrapper main .life header .header-nav .header-nav_menu {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	cursor: pointer;
+	padding: 8px;
+	margin: 15px 25px;
+}
+.wrapper main .life header .header-nav .header-nav_menu:hover {
+	color: #00AFDB;
+	text-decoration: underline;
+}
+.wrapper main .life header .header-nav .active-link {
+	font-weight: 500;
+	text-decoration: underline;
+}
+.wrapper main .life .life-content {
+	position: absolute;
+	top: 340px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Roboto, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+}
+.wrapper main .life .life-content .life-content_title {
+	font-size: 64px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 4.5px;
+}
+.wrapper main .life .life-content .life-content_text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	width: 504px;
+	margin: 18px auto 31px auto;
+}
+.wrapper main .life .life-content .life-content_btn {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #00AFDB;
+	border: none;
+	cursor: pointer;
+	width: 184px;
+	height: 46px;
+	outline: none;
+	margin: 0 auto;
+}
+.wrapper main .life .life-content .life-content_btn:hover, .wrapper main .life .life-content .life-content_btn:focus {
+	background: #02254a;
+}
+.wrapper main .life .life-socialNets {
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 107px;
+	left: 50.7%;
+	transform: translateX(-50%);
+}
+.wrapper main .life .life-socialNets .life-social_link {
+	position: relative;
+	padding: 25px;
+}
+.wrapper main .life .life-socialNets .life-social_link img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.wrapper main .represent {
+	width: 1082px;
+	height: 842px;
+	margin: -11px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrapper main .represent .represent-content {
+	width: 407px;
+	font-family: Roboto, sans-serif;
+	padding: 0 20px;
+}
+.wrapper main .represent .represent-content .represent-content_title {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	letter-spacing: 2px;
+	color: #373737;
+}
+.wrapper main .represent .represent-content .represent-content_text {
+	margin: 0 0 30px 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: #4E4E4E;
+	line-height: 19.6px;
+}
+.wrapper main .represent .represent-content .represent-content_text span {
+	color: #373737;
+	font-weight: 500;
+}
+.wrapper main .represent .represent-content .represent-content_btn {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #00AFDB;
+	border: none;
+	cursor: pointer;
+	padding: 15px 44px;
+	outline: none;
+	line-height: 16.41px;
+}
+.wrapper main .represent .represent-content .represent-content_btn:hover, .wrapper main .represent .represent-content .represent-content_btn:focus {
+	background: #02254a;
+}
+.wrapper footer {
+	background: cyan;
+	width: 100%;
+	height: 150px;
+}
