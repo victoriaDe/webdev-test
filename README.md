@@ -1,1 +1,1 @@
-https://victoriaDe.github.io/webdev-test/index.html
+https://victoriaDe.github.io/webdev-test/index
