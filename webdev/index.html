@@ -6,44 +6,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
 <div class="wrapper">
-
     <main class="content">
         <div class="life">
             <header>
                 <nav class="header-nav">
-                    <a class="header-nav_menu header-nav_link active-link">About</a>
-                    <a class="header-nav_menu header-nav_link">Syllabus</a>
-                    <a class="header-nav_menu"><img src="assets/img/logo.png" alt="logo" class="header-nav_logo"></a>
-                    <a class="header-nav_menu header-nav_link">Projects</a>
-                    <a class="header-nav_menu header-nav_link">FAQ</a>
+                    <a class="header-nav_menu header-nav_link active-link" href="#community">About</a>
+                    <a class="header-nav_menu header-nav_link" href="#represent">Syllabus</a>
+                    <a class="header-nav_menu" href="index.html"><img src="assets/img/logo.png" alt="logo"
+                                                                      class="header-nav_logo"></a>
+                    <a class="header-nav_menu header-nav_link" href="#download">Projects</a>
+                    <a class="header-nav_menu header-nav_link" href="#newsletter">FAQ</a>
                 </nav>
             </header>
             <div class="life-content">
                 <h1 class="life-content_title">your life is WebDev</h1>
                 <p class="life-content_text">Whatever the approach to development may be, the final program must satisfy
                     some fundamental properties</p>
-                <button class="life-content_btn">get started 1111111111</button>
+                <button class="life-content_btn">get started</button>
             </div>
             <div class="life-socialNets">
-                <a href="#" class="life-social_link"><img src="assets/img/envelop.png" alt="img"></a>
-                <a href="#" class="life-social_link"><img src="assets/img/circle.png" alt="img">
-                    <img src="assets/img/facebook.png" alt="img"></a>
-                <a href="#" class="life-social_link"><img src="assets/img/instagram.png" alt="img"></a>
-                <a href="#" class="life-social_link"><img src="assets/img/circle.png" alt="img">
-                    <img src="assets/img/youtube.png" alt="img"></a>
+                <a href="#" class="life-social_link"><img src="assets/img/envelop.png" class="social-link"
+                                                          alt="icon-mail"></a>
+                <a href="#" class="life-social_link"><img src="assets/img/circle.png" alt="icon-fb1">
+                    <img class="social-link" src="assets/img/facebook.png" alt="icon-fb2"></a>
+                <a href="#" class="life-social_link"><img src="assets/img/instagram.png" class="social-link"
+                                                          alt="icon-inst1"></a>
+                <a href="#" class="life-social_link"><img src="assets/img/circle.png" alt="icon-inst2">
+                    <img src="assets/img/youtube.png" alt="icon-youtube" class="social-link"></a>
             </div>
 
 
         </div>
-        <div class="represent">
+        <div class="represent" id="represent">
             <div class="represent-content">
                 <h3 class="represent-content_title">Rappresent your idea with
                     a smart Design</h3>
                 <p class="represent-content_text">Tasks accompanying and related to programming include: testing,
-                    debugging, source code maintenance, <span>implementation of build systems</span>, and management of
+                    debugging, source code maintenance, <strong>implementation of build systems</strong>, and management
+                    of
                     derived
                     artifacts, such as the machine code of computer programs.</p>
                 <button class="represent-content_btn">get started</button>
@@ -52,12 +57,88 @@
                 <img src="assets/img/rapprImg.png" alt="img">
             </div>
         </div>
-        <div class="community"></div>
-        <div class="code"></div>
-        <div class="newsletter"></div>
-        <div class="download"></div>
-    </main>
+        <div class="community" id="community">
+            <div class="community-content">
+                <img class="community-content_img" src="assets/img/userpic.png" alt="user">
+                <h3 class="community-content_title">our community</h3>
+                <p class="community-content_text">A hacker is any skilled computer expert that uses their technical
+                    knowledge to overcome a problem,
+                    but it can also mean a security hacker in common language</p>
+            </div>
+            <div class="community-slider">
+                <div class="community-slider_navigation">
+                    <div class="slider-array-back array" id="arrayBack">&#706;</div>
+                    <div class="slider-number" id="firstItem">1</div>
+                    <div class="slider-divider">/</div>
+                    <div class="slider-number" id="last-back">6</div>
+                    <div class="slider-array-next array" id="arrayNext">&#707;</div>
+                </div>
+                <div class="community-slider_slides">
+                    <div class="community-slider-item"><img src="assets/img/slider1.png" alt="slide1"></div>
+                    <div class="community-slider-item"><img src="assets/img/slider2.png" alt="slide2"></div>
+                    <div class="community-slider-item"><img src="assets/img/slider3.png" alt="slide3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="implement" id="download">
+            <div class="implement-image">
+                <img src="assets/img/implImg.png" alt="img">
+            </div>
+            <div class="implement-content">
+                <h3 class="implement-content_title">Implement right Code</h3>
+                <p class="implement-content_text">These might be considered part of the <strong>programming
+                    process</strong>,
+                    but often
+                    the term software development is used for this larger process with the term programming,
+                    implementation</p>
+                <button class="implement-content_btn">Learn more</button>
+            </div>
 
+        </div>
+        <div class="newsletter" id="newsletter">
+            <div class="newsletter-content">
+                <h3 class="newsletter-content_title">sign up for our newsletter
+                </h3>
+                <div class="newsletter-content_input">
+                    <form>
+                        <label>
+                            <input type="email" required placeholder="E-mail">
+                        </label>
+                    </form>
+                    <button class="newsletter-content_btn"><img src="assets/img/done.png" alt="icon-done"
+                                                                class="newsletter-btn"></button>
+                </div>
+            </div>
+        </div>
+        <div class="download">
+            <div class="download-content">
+                <h3 class="download-content_title">Download the App</h3>
+                <p class="download-content_text">Machine code was the language of early programs, written in the
+                    instruction set of the particular machine, often in binary notation.</p>
+                <div class="download-content_btn">
+                    <button class="download-btn_content button-animation">apple store
+                        <img src="assets/img/icon-apple.png" alt="apple-icon"></button>
+                    <button class="download-btn_content button-animation">Play Market
+                        <img src="assets/img/icon-android.png" alt="apple-android">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <div class="footer-nav">
+            <a href="#" class="footer-nav_link">Credits</a>
+            <a href="#" class="footer-nav_link">Privacy</a>
+            <a href="#" class="footer-nav_link">Our teams</a>
+        </div>
+        <div class="footer-logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+        <div class="footer-privacy">
+            <p>by TonYem for RSS at 2020</p>
+        </div>
+
+    </footer>
 </div>
 </body>
 </html>
